@@ -1,0 +1,18 @@
+2025-09-01 morning~afternoon
+/* 현재 이 페이지는 외부 스타일시트를 만들기위한 페이지 */
+/* html페이지의 header영역에에 아이디선택자를 사용하기 위해 id를 집어넣고 이름을 명명한 
+후에 배경에 검은색,글자에 하얀색 스타일시트 적용 */
+/*  */
+#top {
+  background-color: black;
+  color: white;
+}
+/* navmenu아이디로 컬러 넣을시 글자에는 색깔 안들어가고 순서없는 리스트의 동그라미만 하얗게 변함 */
+#navmenu {
+  color: white;
+}
+/* 위에서 글자에는 색깔 안들어가서 a태그에 직접적용시도 */
+/* 각 a태그에 id속성을 넣어 id선택자를 적용하려고 하였으나 id선택자는 1개에서 밖에 적용이 안되므로 class선택자로 변경  */
+#menuname {
+  color: white;
+}
